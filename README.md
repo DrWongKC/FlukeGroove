@@ -10,3 +10,6 @@ password: 123testUserPassword!
 
 # User Authentication Manager
 https://dashboard.clerk.com/
+
+# MongoDB Database
+https://cloud.mongodb.com/
