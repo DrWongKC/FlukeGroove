@@ -13,3 +13,6 @@ https://dashboard.clerk.com/
 
 # MongoDB Database
 https://cloud.mongodb.com/
+
+# Media Storage
+https://cloudinary.com/
