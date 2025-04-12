@@ -1,18 +1,35 @@
-# FlukeGroove
-Unearth a universe of sound on FlukeGroove. Explore a boundless collection of self-uploaded songs, waiting to be discovered. Rediscover hidden gems within your own library. With its familiar and intuitive design, FlukeGroove offers a unique platform for truly addictive musical journeys.
+<h1 align="center">FlukéGroove™ Online Music Player ✨</h1>
 
-# Notice
-Downgraded from React 19 to "react": "^18.3.1", "react-dom": "^18.3.1", as shadcn only works perfectly with React 18. I may upgrade to React 19 in future after shadcn supports React 19.
+Thank you to burakorkmez (https://github.com/burakorkmez) for sourcecode template.
 
-# Test User Account
-email: kai@mail.com
-password: 123testUserPassword!
+-   🎸 Listen to music, play next and previous songs
+-   🔈 Update the volume with a slider
+-   🎧 Admin dashboard to create albums and songs
+-   💬 Real-time Chat App integrated into Spotify
+-   👨🏼‍💼 Online/Offline status
+-   👀 See what other users are listening to in real-time
+-   📊 Aggregate data for the analytics page
+-   🚀 And a lot more...
 
-# User Authentication Manager
-https://dashboard.clerk.com/
+### Setup .env file in _backend_ folder
 
-# MongoDB Database
-https://cloud.mongodb.com/
+```bash
+PORT=...
+MONGODB_URI=...
+ADMIN_EMAIL=...
+NODE_ENV=...
 
-# Media Storage
-https://cloudinary.com/
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
+
+
+CLERK_PUBLISHABLE_KEY=...
+CLERK_SECRET_KEY=...
+```
+
+### Setup .env file in _frontend_ folder
+
+```bash
+VITE_CLERK_PUBLISHABLE_KEY=...
+```
