@@ -1,7 +1,7 @@
 {
 	"name": "spotify-clone",
 	"version": "1.0.0",
-	"description": "",
+	"description": "<h1 align=\"center\">FlukéGroove™ Online Music Player ✨</h1>",
 	"main": "index.js",
 	"scripts": {
 		"build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
@@ -9,5 +9,13 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DrWongKC/FlukeGroove.git"
+	},
+	"bugs": {
+		"url": "https://github.com/DrWongKC/FlukeGroove/issues"
+	},
+	"homepage": "https://github.com/DrWongKC/FlukeGroove#readme"
 }
