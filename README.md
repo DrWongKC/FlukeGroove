@@ -14,10 +14,6 @@ Thank you to burakorkmez (https://github.com/burakorkmez) for sourcecode templat
 # Notice
 Downgraded from React 19 to "react": "^18.3.1", "react-dom": "^18.3.1", as shadcn only works perfectly with React 18. I may upgrade to React 19 in future after shadcn supports React 19.
 
-# Test User Account
-email: kai@mail.com
-password: 123testUserPassword!
-
 # User Authentication Manager
 https://dashboard.clerk.com/
 
